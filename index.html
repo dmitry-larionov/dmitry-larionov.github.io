@@ -853,42 +853,7 @@ var flightPath2 = new google.maps.Polygon({
   MyInfoBox = new InfoBox();
   labelText = "City Hall";
 
-//	 myOptions2 = {
-		
-	//	,
-	//	,disableAutoPan: true
-	//	 ,pixelOffset: new google.maps.Size(-25, 0)
-		//,position: new google.maps.LatLng(55.87216, 37.56307)
-	//	,closeBoxURL: ""
-	//	,isHidden: false
-	//	,pane: "mapPane"
-	
-	// content: labelText,
-	// boxStyle: {
-	//	   border: "1px solid black"
-	//	  ,textAlign: "center"
-	//	  ,fontSize: "8pt"
-	//	  ,width: "1500px"
-	//	 }
-	//	,disableAutoPan: false
-		//,maxWidth: 0
-	//	,pixelOffset: new google.maps.Size(-140, 0)
-		//,zIndex: null
-	//	,boxStyle: { 
-		//  background: "url('tipbox.gif') no-repeat",
-		//  opacity: 0.90
-		//  ,width: "280px"
-		// }
-	//	,closeBoxMargin: "10px 2px 2px 2px"
-	//	,closeBoxURL: "http://www.google.com/intl/en_us/mapfiles/close.gif"
-	//	,infoBoxClearance: new google.maps.Size(1, 1)
-	//	,isHidden: false
-	//	,pane: "floatPane"
-	//	,enableEventPropagation: false
-	//};
 
-	 
-  
   google.maps.event.addListener(flightPath1, 'click', showArrays1);
   google.maps.event.addListener(flightPath2, 'click', showArrays2);
   google.maps.event.addListener(flightPath3, 'click', showArrays3);
@@ -958,7 +923,7 @@ var flightPath2 = new google.maps.Polygon({
       '(last visited June 22, 2009).</p>'+
       '</div>'+
       '</div>';*/
-	  //' <div class="block1">Ольга Романова.</div>'+
+	  
 	  var beginString= '<!DOCTYPE HTML>'+'<html>'+' <head>'+  '<meta charset="utf-8">'+  '<title>Тег DIV</title>'+  '</head>'+ '<div margin-right=20;style="background-color:#363636;">'+' <body>';
 	  var endString='</body></div></html>';
 
@@ -1008,22 +973,7 @@ var contentString43 =	 ' <ul class="cbdb-menu"> <li> <a href="#" class="black">	
 var contentString44 =	 ' <ul class="cbdb-menu"> <li> <a href="#" class="black">	<p allign="center">	Избирательный округ №44	</p>	</a></li><li><a href="#" class="black">	159496	избирателей 	/	4785	 подписей	/	 Навальный	33,45	%	</a></li>  <li><a href="#" class="yellow">	 —(СР)	</a> </li> <li><a href="#" class="blue">	  —(ЛДПР)	</a></li><li><a href=	http://coalition.msk.ru/material.php?id=536B121535FE8	 class="darkcyan">	Ольга Романова	(Коалиция)	</a></li>  <li><a href=	http://москва2014.рф/candidates/sviridov.ilya/	 class="darkblue">	Свиридов Илья Тимурович	(Праймериз)	</a> </li>  <li><a href=	yabloko/44.htm	  class="green">	Александр Гнездилов	(Яблоко)	</a> </li> <li><a href="#" class="red">	Шувалова Елена Анатольевна	 (КПРФ)	</a></li></ul>';
 var contentString45 =	 ' <ul class="cbdb-menu"> <li> <a href="#" class="black">	<p allign="center">	Избирательный округ №45	</p>	</a></li><li><a href="#" class="black">	150228	избирателей 	/	4507	 подписей	/	 Навальный	33,99	%	</a></li>  <li><a href="#" class="yellow">	 —(СР)	</a> </li> <li><a href="#" class="blue">	  —(ЛДПР)	</a></li><li><a href=	#	 class="darkcyan">	нет	(Коалиция)	</a></li>  <li><a href=	http://москва2014.рф/candidates/shchitov.kirill/	 class="darkblue">	Щитов Кирилл Владимирович	(Праймериз)	</a> </li>  <li><a href=	yabloko/45.htm	  class="green">	Николай Кавказский	(Яблоко)	</a> </li> <li><a href="#" class="red">	Фомичёва Елена Алексеевна	 (КПРФ)	</a></li></ul>';
 
-	  
-	  ' <ul class="cbdb-menu"> <li class="edclass"><a href="#">	Избирательный округ №45	/	150228	избирателей /	</a></li><li><a href=	#	 class="cyan">	нет	(Коалиция)	</a> </li> <li><a href="#" class="red">	Фомичёва Елена Алексеевна	 (КПРФ)	</a> </li>  <li><a href=	yabloko/45.htm	  class="green">	Николай Кавказский	(Яблоко)	</a></li>  <li><a href="#" class="yellow">	?(СР)	</a></li>  <li><a href="#" class="blue">	Щитов Кирилл Владимирович	(Праймериз)	</a></li></ul>';
-  //var contentString45 =  
-//'	<script language="JavaScript">'+
-// 'onLoad=\"alert(\'Мы Вам рады\');\" onUnload=\"alert(\'До скорой встречи\');\">'+
-// '<h1>Приветствуем!</h1>'+
-// '<p>На сайте нашей компании</p>'+
-// '
- var contentString46 ='<!DOCTYPE HTML>'+'<html>'+' <head>'+  '<meta charset="utf-8">'+ '</head>'
-+'<div style="background-color:orange;color:black;border:1px solid black;width:500px;height:200px;font-size:8px;">HTML background color example</div> </html>';
 
-  
-  
-  
-  
-  
 function showArrays1	(event) {MyInfoBox.setContent(beginString+contentString1	+	endString	);MyInfoBox.setPosition(event.latLng);    MyInfoBox.open(map);}
 function showArrays2	(event) {MyInfoBox.setContent(beginString+contentString2	+	endString	);MyInfoBox.setPosition(event.latLng);    MyInfoBox.open(map);}
 function showArrays3	(event) {MyInfoBox.setContent(beginString+contentString3	+	endString	);MyInfoBox.setPosition(event.latLng);    MyInfoBox.open(map);}
@@ -1074,39 +1024,11 @@ function showArrays41	(event) {MyInfoBox.setContent(beginString+contentString41	
 function showArrays42	(event) {MyInfoBox.setContent(beginString+contentString42	+	endString	);MyInfoBox.setPosition(event.latLng);    MyInfoBox.open(map);}
 function showArrays43	(event) {MyInfoBox.setContent(beginString+contentString43	+	endString	);MyInfoBox.setPosition(event.latLng);    MyInfoBox.open(map);}
 function showArrays44	(event) {MyInfoBox.setContent(beginString+contentString44	+	endString	);MyInfoBox.setPosition(event.latLng);    MyInfoBox.open(map);}
-//function showArrays45	(event) {infowindow.setContent(contentString46	);infowindow.setPosition(event.latLng);    infowindow.open(map);}
 function showArrays45	(event) { MyInfoBox.setContent(beginString+contentString45	+	endString);MyInfoBox.setPosition(event.latLng);    MyInfoBox.open(map);}
 
 
-
  
- 
- 
- 
-  
-  
-/*
 
-
-  // Since this Polygon only has one path, we can call getPath()
-  // to return the MVCArray of LatLngs
-  var vertices = this.getPath();
-
-  var contentString = "<b>Bermuda Triangle Polygon</b><br />";
-  contentString += "Clicked Location: <br />" + event.latLng.lat() + "," + event.latLng.lng() + "<br />";
-
-  // Iterate over the vertices.
-  for (var i =0; i < vertices.length; i++) {
-    var xy = vertices.getAt(i);
-    contentString += "<br />" + "Coordinate: " + i + "<br />" + xy.lat() +"," + xy.lng();
-  }
-
-  // Replace our Info Window's content and position
-  infowindow.setContent(contentString);
-  infowindow.setPosition(event.latLng);
-
-  infowindow.open(map);
-  */
 
 google.maps.event.addDomListener(window, 'load', initialize);
 
