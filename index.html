@@ -4,7 +4,6 @@
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <meta charset="utf-8">
     <title>Кандидаты в МГД</title>
-	<link rel="stylesheet" href="css/demo.css" />
     <link rel="stylesheet" href="css/cbdb-btn.css" />
     <style>
       html, body, #map-canvas {
@@ -45,8 +44,7 @@
     top: 40px; 
     left: -70px; 
    }
-      
-	  	  
+    
 	  
     </style>
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
@@ -242,10 +240,6 @@ var color3='#FFFF00';
 var color4='#00CC00';
 var color5='#006600';
 var color6='#000099';
-
-
-
-
 
 var flightPath1 = new google.maps.Polygon({
     path: flightPlanCoordinates1,
@@ -824,8 +818,6 @@ var flightPath2 = new google.maps.Polygon({
   });
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////   
  
-  
-  
   flightPath1.setMap(map);
   flightPath2.setMap(map);
   flightPath3.setMap(map);
@@ -878,9 +870,6 @@ var flightPath2 = new google.maps.Polygon({
   flightPath44.setMap(map);
   flightPath45.setMap(map);
   
-
- 
-
 	
   // Add a listener for the click event
   infowindow = new google.maps.InfoWindow();
