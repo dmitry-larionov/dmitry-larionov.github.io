@@ -843,14 +843,9 @@ var flightPath2 = new google.maps.Polygon({
   flightPath44.setMap(map);
   flightPath45.setMap(map);
   
-	
-  // Add a listener for the click event
-  infowindow = new google.maps.InfoWindow();
-  
+
   MyInfoBox = new InfoBox();
-  labelText = "City Hall";
-
-
+  
   google.maps.event.addListener(flightPath1, 'click', showArrays1);
   google.maps.event.addListener(flightPath2, 'click', showArrays2);
   google.maps.event.addListener(flightPath3, 'click', showArrays3);
@@ -904,14 +899,12 @@ var flightPath2 = new google.maps.Polygon({
   google.maps.event.addListener(flightPath45, 'click', showArrays45);
 
  
-  
 }
   
   
 	  var beginString= '<!DOCTYPE HTML>'+'<html>'+' <head>'+  '<meta charset="utf-8">'+  '<title>Тег DIV</title>'+  '</head>'+ '<div margin-right=20;style="background-color:#363636;">'+' <body>';
 	  var endString='</body></div></html>';
-
-	  var contentString1 =	 ' <ul class="cbdb-menu"> <li> <a href="#" class="black">	<p allign="center">	Избирательный округ №1 	</p>	</a></li><li><a href="#" class="black">	170190	избирателей 	/	5106	 подписей	/	 Навальный	25,65	%	</a></li>  <li><a href="#" class="yellow">	 —(СР)	</a> </li> <li><a href="#" class="blue">	  —(ЛДПР)	</a></li><li><a href=	#	 class="darkcyan">	нет	(Коалиция)	</a></li>  <li><a href=	http://москва2014.рф/become-a-candidate/registered-candidates/dragunkina-zinaida-.html	 class="darkblue">	Драгункина Зинаида Федоровна	(Праймериз)	</a> </li>  <li><a href=	#	  class="green">	Максим Болотин	(Яблоко)	</a> </li> <li><a href="#" class="red">	Гончарук Григорий Иванович	 (КПРФ)	</a></li></ul>';
+var contentString1 =	 ' <ul class="cbdb-menu"> <li> <a href="#" class="black">	<p allign="center">	Избирательный округ №1 	</p>	</a></li><li><a href="#" class="black">	170190	избирателей 	/	5106	 подписей	/	 Навальный	25,65	%	</a></li>  <li><a href="#" class="yellow">	 —(СР)	</a> </li> <li><a href="#" class="blue">	  —(ЛДПР)	</a></li><li><a href=	#	 class="darkcyan">	нет	(Коалиция)	</a></li>  <li><a href=	http://москва2014.рф/become-a-candidate/registered-candidates/dragunkina-zinaida-.html	 class="darkblue">	Драгункина Зинаида Федоровна	(Праймериз)	</a> </li>  <li><a href=	#	  class="green">	Максим Болотин	(Яблоко)	</a> </li> <li><a href="#" class="red">	Гончарук Григорий Иванович	 (КПРФ)	</a></li></ul>';
 var contentString2 =	 ' <ul class="cbdb-menu"> <li> <a href="#" class="black">	<p allign="center">	Избирательный округ №2 	</p>	</a></li><li><a href="#" class="black">	174313	избирателей 	/	5230	 подписей	/	 Навальный	27,95	%	</a></li>  <li><a href="#" class="yellow">	 —(СР)	</a> </li> <li><a href="#" class="blue">	  —(ЛДПР)	</a></li><li><a href=	http://coalition.msk.ru/material.php?id=537E63CFED178	 class="darkcyan">	Алексей Бескоровайный	(Коалиция)	</a></li>  <li><a href=	http://москва2014.рф/candidates/yaroslavskaya.olga/	 class="darkblue">	Ярославская Ольга Владимировна	(Праймериз)	</a> </li>  <li><a href=	yabloko/2.htm	  class="green">	Михаил Песков	(Яблоко)	</a> </li> <li><a href="#" class="red">	Шмелева Елена Игоревна	 (КПРФ)	</a></li></ul>';
 var contentString3 =	 ' <ul class="cbdb-menu"> <li> <a href="#" class="black">	<p allign="center">	Избирательный округ №3	</p>	</a></li><li><a href="#" class="black">	177162	избирателей 	/	5315	 подписей	/	 Навальный	29,04	%	</a></li>  <li><a href="#" class="yellow">	 —(СР)	</a> </li> <li><a href="#" class="blue">	  —(ЛДПР)	</a></li><li><a href=	#	 class="darkcyan">	нет	(Коалиция)	</a></li>  <li><a href=	http://москва2014.рф/candidates/skobinov.valeriy/	 class="darkblue">	Скобинов Валерий Петрович	(Праймериз)	</a> </li>  <li><a href=	#	  class="green">	Альберт Арзуманян	(Яблоко)	</a> </li> <li><a href="#" class="red">	Сараеув Дмитрий Михайлович	 (КПРФ)	</a></li></ul>';
 var contentString4 =	 ' <ul class="cbdb-menu"> <li> <a href="#" class="black">	<p allign="center">	Избирательный округ №4	</p>	</a></li><li><a href="#" class="black">	175445	избирателей 	/	5264	 подписей	/	 Навальный	28,53	%	</a></li>  <li><a href="#" class="yellow">	 —(СР)	</a> </li> <li><a href="#" class="blue">	  —(ЛДПР)	</a></li><li><a href=	http://coalition.msk.ru/material.php?id=536B35EA8741D	 class="darkcyan">	Владимир Залищак	(Коалиция)	</a></li>  <li><a href=	http://москва2014.рф/candidates/gerasimov.evgeniy/	 class="darkblue">	Герасимов Евгений Владимирович	(Праймериз)	</a> </li>  <li><a href=	yabloko/4.htm	  class="green">	Ирина Копкина	(Яблоко)	</a> </li> <li><a href="#" class="red">	Махмудов Рустам Хамидович	 (КПРФ)	</a></li></ul>';
