@@ -220,7 +220,7 @@ var flightPath1 = new google.maps.Polygon({
     strokeColor: '#000000',
     strokeOpacity: 1.0,
     strokeWeight: 1,
-	draggable: true,
+	draggable: false,
 	fillColor: color2,
     fillOpacity: 0.48
 
@@ -844,7 +844,7 @@ var flightPath2 = new google.maps.Polygon({
   flightPath45.setMap(map);
   
 
-  MyInfoBox = new InfoBox();
+  MyInfoBox = new infowindow();
   
   google.maps.event.addListener(flightPath1, 'click', showArrays1);
   google.maps.event.addListener(flightPath2, 'click', showArrays2);
