@@ -1,0 +1,185 @@
+/*********** BUTTON *************/
+.cbdb-menu li {
+	display: block;
+	float: center;
+	line-height: 25px;
+	list-style:none;
+	margin: 0px;
+        padding: 0px 0px 0px 0px;
+
+}
+.cbdb-menu li a {
+	/* This generators the gradient on top of the solid color */
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, rgba(255,255,255,.5)),
+		color-stop(1, rgba(0,0,0,.1))
+	);
+	background-image: -moz-linear-gradient(
+		center top,
+		rgba(255,255,255,.5) 0%,
+		rgba(0,0,0,.1) 100%
+	);
+	color: #f4f4f4; /* IE */
+	color: rgba(255, 255, 255, 0.8);
+	display: block;	
+	font: bold 18px "Myriad Pro","Lucida Grande",Helvetica,Arial,sans-serif;		
+	outline:none;
+	padding: 5px 35px;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px; 
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.65);
+	-moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.65);
+	-webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.65);	
+}
+	.cbdb-menu li a:active {
+		background-image: -webkit-gradient(
+			linear,
+			left bottom,
+			left top,
+			color-stop(0,rgba(255,255,255,.5)),
+			color-stop(.1,rgba(255,255,255,.2)),
+			color-stop(.85, rgba(0,0,0,.2)),
+			color-stop(100, rgba(0,0,0,.4))
+		);
+		background-image: -moz-linear-gradient(
+			center bottom,
+			rgba(255,255,255,.5) 0%,
+			rgba(255,255,255,.2) 10%,
+			rgba(0,0,0,.2) 85%,
+			rgba(0,0,0,.4) 100%
+		);
+	}
+/* Dark Text */
+.cbdb-menu li a.dark {
+	color: #333; /* IE */
+	color: rgba(0, 0, 0, 0.8);
+	text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.4);
+}
+/*********** COLORS *************/
+/* Create your own class for your own colors */
+.red {
+	background: #B80202;
+	border: #B80202 1px solid
+}
+	.red:hover, .red:focus{
+		background-color:#e30606
+	}
+.green {
+	background: #66CD00;
+	border: #66CD00 1px solid
+}
+	.green:hover,.green:focus {
+		background-color:#76EE00
+	}
+.yellow {
+	background: #D9CE1C;
+	border: #D9CE1C 1px solid
+}
+	.yellow:hover,.yellow:focus {
+		background-color:#eee117
+	}
+.cyan {
+	background: #23c6de;
+	border: #23c6de 1px solid
+}
+	.cyan:hover,.cyan:focus {
+		background-color:#18d8f4
+	}
+
+.darkcyan {
+	background: #008B8B;
+	border: #008B8B 1px solid
+}
+	.darkcyan:hover,.darkcyan:focus {
+		background-color:#00B5CD
+	}
+
+
+.blue {
+	background: #3271d9;
+	border: #3271d9 1px solid
+}
+	.blue:hover,.blue:focus {
+		background-color:#377ef2
+	}
+.darkblue {
+	background: #483D8B;
+	border: #483D8B 1px solid
+}
+     .darkblue:hover,.darkblue:focus {
+		background-color:#6A5ACD
+	}
+
+
+.black {
+	background: #000000;
+       	border: #000000 0px solid
+        
+
+}
+	.black:hover,.black:focus {
+		background-color:#011111
+	}
+
+.edcolor {
+	background: #5F9EA0;
+	border: #000000 0px solid
+}
+	.edcolor:hover,.edcolor:focus {
+		background-color:3F5F4F
+	}
+
+
+
+
+li.edclass  
+{
+        background: #000000;
+	border: #000000 0px solid
+        display: block;
+	float: center;
+        font: bold 32px "Myriad Pro","Lucida Grande",Helvetica,Arial,sans-serif;
+        text-align: center 
+	line-height: 400px;
+	list-style:none;
+	margin: 0 0px;
+        color: #600; /* IE */
+	color: rgba(0, 0, 0, 0.8);
+	text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.4);
+}
+
+p {
+font-size: 40px;
+font-weight:bold;
+margin: 7px 10px 7px 10px;
+
+}
+
+
+
+
+
+
+#toTop {
+width:100px;
+border:1px solid #ccc;
+background:#f7f7f7;
+text-align:center;
+padding:5px;
+position:fixed;
+
+
+bottom:10px; /* отступ кнопки от нижнего края страницы*/
+right:10px;
+cursor:pointer;
+display:none;
+color:#333;
+font-family:verdana;
+font-size:11px;
+}
