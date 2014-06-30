@@ -846,8 +846,8 @@ var flightPath2 = new google.maps.Polygon({
  
   
   
-   MyInfoBox = new google.maps.InfoWindow();
-  /* MyInfoBox = new infowindow();*/
+  /* MyInfoBox = new google.maps.InfoWindow();*/
+  MyInfoBox = new InfoBox();
 
   google.maps.event.addListener(flightPath1, 'click', showArrays1);
   google.maps.event.addListener(flightPath2, 'click', showArrays2);
